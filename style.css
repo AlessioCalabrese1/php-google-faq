@@ -1,6 +1,11 @@
 header{
     border-bottom: 1px solid #CBCBCB;
     margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
 }
 
 header ul{
@@ -36,7 +41,9 @@ img{
     margin-right: 10px;
 }
 
-
+main{
+    margin-top: 90px;
+}
 
 .question{
     color: #3C4043;
@@ -65,4 +72,18 @@ main div{
 
 a{
     text-decoration: none;
+}
+
+footer{
+    background-color: #F5F5F5;
+}
+
+footer a{
+    color: #626A6F;
+    font-size: 12px;
+}
+
+select{
+    border: 1px solid black;
+    width: 150px;
 }
