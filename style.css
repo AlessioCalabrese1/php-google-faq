@@ -1,6 +1,6 @@
 header{
-    border-bottom: 1px solid grey;
-    margin-bottom: 90px;
+    border-bottom: 1px solid #CBCBCB;
+    margin-bottom: 30px;
 }
 
 header ul{
@@ -11,12 +11,18 @@ header li{
     display: inline-block;
 }
 
+header a{
+    color: #5F6368;
+    font-weight: 500;
+}
+
 img{
     width: 100px;
 }
 
 .account{
-    background-color: aqua;
+    background-color: #0097A7;
+    color: white;
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
@@ -36,9 +42,27 @@ img{
     color: #3C4043;
     font-size: 25px;
     font-weight: 600;
+    margin-top: 50px;
 }
 
 .faq-container{
     margin: 0 auto;
     width: 1000px;
+}
+
+.response-ordered-list{
+    padding-left: 1rem;
+}
+
+ol li{
+    margin: 15px 0;
+
+}
+
+main div{
+    font-size: 14.5px;
+}
+
+a{
+    text-decoration: none;
 }
